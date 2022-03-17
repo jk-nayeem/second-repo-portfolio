@@ -38,6 +38,14 @@ h1{
 #change-color{
     background-image: linear-gradient(red, tomato);
 }
+#change-color1{
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+#change-color2{
+    border-image: linear-gradient(red, rgb(245, 153, 137));
+    border-image-slice: 1;
+}
 
 .bottom-item{
     width: 40%;
@@ -45,7 +53,11 @@ h1{
     margin-right: 5%;
     box-shadow: 10px 10px 40px gray;
     padding-left: 15px;
+    padding-right: 5px;
     text-align: justify;
+    border-left: 7px solid;
+    border-radius: 10px;
+
 }
 h2{
     font-size: 30px;
@@ -55,4 +67,16 @@ h4{
     font-size: 20px;
     margin-bottom: 0;
     font-weight: 700;
+}
+.text-color{
+    color: rgb(30, 226, 30);
+}
+
+.bottom-marge{
+    margin-bottom: 60px;
+}
+
+
+footer{
+    text-align: center;
 }
